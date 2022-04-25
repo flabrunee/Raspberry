@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-import threading
 import usb.core
 import usb.util
 from time import sleep
@@ -35,10 +34,10 @@ for config in dev:
 
 #while True:
 ##### Intento de lectura 952
-"""
+'''
 data1 = ''
 try:
-        print('1')
+    print('1')
 #       while data1 == '':
         data1 = dev.read(0x81, 7, timeout = 0)
         print(data1)
@@ -50,7 +49,7 @@ except:
 #    except usb.core.USBError as e:
 #        if e.args == ('Operation timed out'):
         pass
-"""
+'''
 ###Intento de lectura 1254
 endpoint = dev[0][(0, 0)][0]
 data2 = []
