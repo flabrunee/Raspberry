@@ -4,10 +4,16 @@ import usb.core
 import usb.util
 from time import sleep
 
-global dev
+global devElit
 
 ##### Capturar lectora Elitronic
-devElit = usb.core.find(idVendor=0x0483, idProduct=0x5710)
+
+
+def new_func():
+    devElit = usb.core.find(idVendor=0x0483, idProduct=0x5710)
+
+
+new_func()
 #print (dev[0])
 if dev is None:
        print('Disp no encontrado')
