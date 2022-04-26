@@ -1,0 +1,334 @@
+﻿﻿VentanasRaspberry
+
+   Window 1
+
+      Como saber que esta llegando por el puerto usb - Foros del Web
+      http://www.forosdelweb.com/f130/como-saber-que-esta-llegando-por-puerto-usb-1086325/
+
+      Múltiples dispositivos HID USB - Foros del Web
+      http://www.forosdelweb.com/f130/multiples-dispositivos-hid-usb-976759/
+
+      devices.py - Pastebin.com
+      https://pastebin.com/3gdvENp1
+
+      usb.core read timeout - Buscar con Google
+      https://www.google.com/search?q=usb.core+read+timeout&oq=usb.core+read+timeout&aqs=chrome..69i57j33i160.6849j0j15&sourceid=chrome&ie=UTF-8
+
+      python - Why can't I call the PyUSB function dev.read() repeatedly without getting a timeout error? - Stack Overflow
+      https://stackoverflow.com/questions/26526217/why-cant-i-call-the-pyusb-function-dev-read-repeatedly-without-getting-a-time
+
+      usb.core.USBError: [Errno 110] Operation timed out · Issue #2 · Trellis-Logic/pyusb_pcap_replay · GitHub
+      https://github.com/Trellis-Logic/pyusb_pcap_replay/issues/2
+
+      How can I stop pyusb from reading if nothing comes from my hid device : learnpython
+      https://www.reddit.com/r/learnpython/comments/5jdp1c/how_can_i_stop_pyusb_from_reading_if_nothing/
+
+      python def newfunc() newfunc() - Buscar con Google
+      https://www.google.com.ar/search?q=python+def+newfunc%28%29+newfunc%28%29&sxsrf=APq-WBsy-xtbLFtbsbVaRDcn0LTGUIrbmg%3A1650881456283&ei=sHNmYv_4ELKF1sQP1syY2Ac&ved=0ahUKEwj_kJLW_K73AhWygpUCHVYmBnsQ4dUDCA4&uact=5&oq=python+def+newfunc%28%29+newfunc%28%29&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECc6BwgAEEcQsANKBAhBGABKBAhGGABQ6wlY6wlg2gxoAXABeACAAU6IAU6SAQExmAEAoAEByAEIwAEB&sclient=gws-wiz
+
+      How can this python function code work? - Stack Overflow
+      https://stackoverflow.com/questions/1463588/how-can-this-python-function-code-work
+
+      (1) WhatsApp
+      https://web.whatsapp.com/
+
+      python os.system - Buscar con Google
+      https://www.google.com.ar/search?q=python++os.system&sxsrf=APq-WBuFE5uyiPlzZsOFp2jOHSzqBw2-wg%3A1650919520197&source=hp&ei=YAhnYs_sCYD01sQPma6TsAc&iflsig=AHkkrS4AAAAAYmcWcEL__2o-d3pwRRzjaDXhfUYhHl5K&ved=0ahUKEwjPnLW8irD3AhUAupUCHRnXBHYQ4dUDCAc&uact=5&oq=python++os.system&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABDLATIFCAAQgAQyBQgAEIAEMgUIABDLATIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyBQgAEMsBOgQIIxAnOgsIABCABBCxAxCDAToLCC4QgAQQxwEQ0QM6CwguEIAEELEDENQCOgUILhCABDoICAAQgAQQsQM6CAguEIAEELEDOg4ILhCABBCxAxCDARDUAjoFCAAQsQM6CggAELEDEIMBEAo6DQguEIAEEMcBEKMCEAo6DQguEIAEEMcBENEDEAo6BwgAEIAEEAo6BwgAELEDEAo6CgguELEDEIMBEAo6BwgjELECECc6BAgAEAo6BwgjEOoCECc6CAgAELEDEIMBUABY7xtgniFoBHAAeACAAVOIAeEGkgECMTKYAQCgAQGgAQKwAQo&sclient=gws-wiz
+
+      Python | os.system() method - GeeksforGeeks
+      https://www.geeksforgeeks.org/python-os-system-method/
+
+      thread.join() python - Buscar con Google
+      https://www.google.com/search?q=thread.join()+python&oq=thread.join()&aqs=chrome.1.69i57j0i20i263i512j0i512j0i30l7.6558j0j15&sourceid=chrome&ie=UTF-8
+
+      Python Thread Class | join() Method with Example
+      https://www.includehelp.com/python/thread-join-method-with-example.aspx#:~:text=join()%20method%20is%20an,or%20through%20an%20unhandled%20exception.
+
+      multithreading - What is the use of join() in Python threading? - Stack Overflow
+      https://stackoverflow.com/questions/15085348/what-is-the-use-of-join-in-python-threading
+
+      multithreading - Python threads using the same variables - Stack Overflow
+      https://stackoverflow.com/questions/68535687/python-threads-using-the-same-variables?noredirect=1&lq=1
+
+      python - How to share a variable between 2 threads - Stack Overflow
+      https://stackoverflow.com/questions/15461413/how-to-share-a-variable-between-2-threads
+
+      python - How to get data from a thread in real time? - Stack Overflow
+      https://stackoverflow.com/questions/61620151/how-to-get-data-from-a-thread-in-real-time?noredirect=1&lq=1
+
+      multiprocessing.Pipe - Buscar con Google
+      https://www.google.com/search?q=multiprocessing.Pipe&sourceid=chrome&ie=UTF-8
+
+      multiprocessing — Paralelismo basado en procesos — documentación de Python - 3.10.4
+      https://docs.python.org/es/3/library/multiprocessing.html#exchanging-objects-between-processes
+
+      multiprocessing — Paralelismo basado en procesos — documentación de Python - 3.10.4
+      https://docs.python.org/es/3/library/multiprocessing.html#pipes-and-queues
+
+      multiprocessing — Paralelismo basado en procesos — documentación de Python - 3.10.4
+      https://docs.python.org/es/3/library/multiprocessing.html#multiprocessing.pool.Pool
+
+   Window 2
+
+      @staticmethod - Buscar con Google
+      https://www.google.com/search?q=%40staticmethod&sourceid=chrome&ie=UTF-8
+
+      Python map()
+      https://www.programiz.com/python-programming/methods/built-in/map
+
+      Python range()
+      https://www.programiz.com/python-programming/methods/built-in/range
+
+      Python tuple()
+      https://www.programiz.com/python-programming/methods/built-in/tuple
+
+      Python sorted()
+      https://www.programiz.com/python-programming/methods/built-in/sorted
+
+      python - Why do we use @staticmethod? - Stack Overflow
+      https://stackoverflow.com/questions/23508248/why-do-we-use-staticmethod#:~:text=The%20reason%20to%20use%20staticmethod,semantically%20related%20to%20the%20class.
+
+   Window 3
+
+      (90) Sun Flower-Post Malone for One Hour Non Stop Continuously - YouTube
+      https://www.youtube.com/watch?v=Nj_OCAdg-wE&list=PL0iSWMo6tWlOUvI3S7mgl4J4QeSbrOQE2
+
+      (3.961 no leídos) - flabrunee@yahoo.com - Yahoo Mail
+      https://mail.yahoo.com/d/search/keyword=maria%2520alejandra?guce_referrer=aHR0cHM6Ly9sb2dpbi55YWhvby5jb20v&guce_referrer_sig=AQAAAFYMlROcdrGpIHHvxkn8P0t5GqOlnmeLP5_bGwkYBfIxqNpHzbe9srO2-iTnLrlHWMRRSSZ22TF0j8vja27VQCkRRvyPhJXQ3yilP5uBUbR7Q02UvUtS7YMDddtPWAL3gpztkahMJvzFfWH0ccCuJim0y-E2RehxeRZZw-bWoyIS
+
+      Comunicación usb serial con Python y Raspberry PI - danielrosiles.com
+      https://danielrosiles.com/comunicacion-usb-serial-python-raspberry/
+
+      Configuracion/Uso - Documentos de Google
+      https://docs.google.com/document/d/1sDt8zZqAU-vVmJs7veHc0t9sth5ImsawISaU4ISY0GU/edit?pli=1
+
+      Instalacion - Documentos de Google
+      https://docs.google.com/document/d/1ZkV2ZgJ47lO72pCY4fPxhm1JNHqKT_05OsJTZM7_xbY/edit?pli=1
+
+      Docs RPi - Documentos de Google
+      https://docs.google.com/document/d/1Tg4txyel6ENqrZ1buPmxU41zPUcx7m_ipxVxTd7V6fM/edit
+
+      Configuration Examples · Gruntfuggly/todo-tree Wiki
+      https://github.com/Gruntfuggly/todo-tree/wiki/Configuration-Examples
+
+      Todo Tree - Visual Studio Marketplace
+      https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+
+      python def newfunc(Thread) pyusb - Buscar con Google
+      https://www.google.com/search?q=python+def+newfunc(Thread)+pyusb&oq=python+def+newfunc(Thread)+pyusb&aqs=chrome..69i57j33i160l4.44479j0j15&sourceid=chrome&ie=UTF-8
+
+      multithreading - Creating Threads in python - Stack Overflow
+      https://stackoverflow.com/questions/2905965/creating-threads-in-python
+
+      16.3. thread — Multiple threads of control — Python 2.7.18 documentation
+      https://docs.python.org/2/library/thread.html#thread.start_new_thread
+
+      python/2079/cgstudiomap/main/eggs/Mako-1.0.3-py2.7.egg/mako/compat.py
+      https://programtalk.com/vs2/python/2079/cgstudiomap/main/eggs/Mako-1.0.3-py2.7.egg/mako/compat.py/
+
+      Python Functions
+      https://www.w3schools.com/python/python_functions.asp
+
+      [Qemu-devel] [RFC for-3.0 0/4] block: Add qcow2-rust block driver
+      https://lore.kernel.org/all/20170401155751.14322-1-mreitz@redhat.com/T/
+
+   Window 4
+
+      (88) Skott - Mermaid (Official Video) - YouTube
+      https://www.youtube.com/watch?v=j3fJAeNXloU&list=PL0iSWMo6tWlOUvI3S7mgl4J4QeSbrOQE2&index=8
+
+   Window 5
+
+      Using the LEGO Dimensions Toy Pad
+      https://www.ev3dev.org/docs/tutorials/using-lego-dimensions-toy-pad/
+
+      python - PyUSB setconfiguration trouble - Stack Overflow
+      https://stackoverflow.com/questions/52115549/pyusb-setconfiguration-trouble
+
+      python - PyUSB dev.set_configuration() - Stack Overflow
+      https://stackoverflow.com/questions/15074394/pyusb-dev-set-configuration
+
+      How to install pyusb on ubuntu? - Stack Overflow
+      https://stackoverflow.com/questions/22049399/how-to-install-pyusb-on-ubuntu
+
+      cython - Python PyUSB HID Feature Report - Stack Overflow
+      https://stackoverflow.com/questions/35162889/python-pyusb-hid-feature-report
+
+      python - Pyusb on windows - no backend available - Stack Overflow
+      https://stackoverflow.com/questions/13773132/pyusb-on-windows-no-backend-available
+
+      python - Problems with pyUSB - Stack Overflow
+      https://stackoverflow.com/questions/17187684/problems-with-pyusb
+
+      python - Pyusb isn't working - Stack Overflow
+      https://stackoverflow.com/questions/47970964/pyusb-isnt-working
+
+      RPi 4 USB-C socket as host - Raspberry Pi Forums
+      https://forums.raspberrypi.com/viewtopic.php?t=246348
+
+      Raspberry Pi Documentation - The config.txt file
+      https://www.raspberrypi.com/documentation/computers/config_txt.html#uart_2ndstage
+
+      Raspberry Pi Forums - Search
+      https://forums.raspberrypi.com/search.php?keywords=pyusb
+
+      Python threading - Raspberry Pi Forums
+      https://forums.raspberrypi.com/viewtopic.php?p=1992180&hilit=usb.core#p1992180
+
+      usb config, descriptors ... where's the doc? - Raspberry Pi Forums
+      https://forums.raspberrypi.com/viewtopic.php?p=1880567&hilit=pyusb#p1880567
+
+      windows usb python (pyusb) - programador clic
+      https://programmerclick.com/article/68771009265/
+
+      usb.core.find Example
+      https://programtalk.com/python-examples/usb.core.find/
+
+      usb.core read - Buscar con Google
+      https://www.google.com.ar/search?q=usb.core+read&sxsrf=APq-WBslXyEfUlgU1lc-Oj_3K2bq1cZ74g:1649621149715&source=hp&ei=_ydTYsewN9Sj1sQPr7m92AU&iflsig=AHkkrS4AAAAAYlM2D1g4B-lhs1d5uqm1b8rYM6K6CRXz&oq=usb.core.read&gs_lcp=Cgdnd3Mtd2l6EAEYADIECAAQHjIGCAAQCBAeOgQIIxAnOgUIABCABDoICC4QgAQQsQM6CwguEIAEELEDEIMBOggIABCxAxCDAToECAAQQzoHCAAQsQMQQzoNCAAQgAQQhwIQsQMQFDoICAAQgAQQsQM6CggAEIAEEIcCEBQ6BQguEIAEUABYmx5g2yloAHAAeACAAa8BiAHNCZIBBDExLjKYAQCgAQE&sclient=gws-wiz&sec_act=sr
+
+      python - PyUSB: reading from a USB device - Stack Overflow
+      https://stackoverflow.com/questions/59105167/pyusb-reading-from-a-usb-device#comment106129826_59105167
+
+      pyusb/README.rst at master · pyusb/pyusb · GitHub
+      https://github.com/pyusb/pyusb/blob/master/README.rst
+
+      pyusb/faq.rst at master · pyusb/pyusb · GitHub
+      https://github.com/pyusb/pyusb/blob/master/docs/faq.rst
+
+      libusb: Device handling and enumeration
+      https://libusb.sourceforge.io/api-1.0/group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed
+
+      Discussions · pyusb/pyusb · GitHub
+      https://github.com/pyusb/pyusb/discussions/categories/q-a
+
+      pyusb/tutorial.rst at master · walac/pyusb · GitHub
+      https://github.com/walac/pyusb/blob/master/docs/tutorial.rst
+
+      usb.core read - Buscar con Google
+      https://www.google.com/search?q=usb.core+read&sxsrf=APq-WBu1NMkjQHFwdxRqBQtAciTSVHT9DQ%3A1649638886696&ei=5n1TYrmOKqXq1sQP-bm1qAE&oq=usb.core&gs_lcp=Cgdnd3Mtd2l6EAEYADIECCMQJzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIECAAQHjIECAAQHjoICC4QgAQQsQM6CAgAELEDEIMBOgsILhCABBCxAxCDAToICAAQgAQQsQM6CAguEIAEENQCOg4ILhCABBCxAxDHARCvAToRCC4QgAQQsQMQgwEQxwEQrwE6BQguEIAESgQIQRgASgQIRhgAUABYiA1g_yNoAHABeACAAXmIAZYFkgEDNy4xmAEAoAEBwAEB&sclient=gws-wiz
+
+      pyusb/tutorial.rst at master · pyusb/pyusb · GitHub
+      https://github.com/pyusb/pyusb/blob/master/docs/tutorial.rst
+
+      pyusb/tutorial.rst at master · pyusb/pyusb · GitHub
+      https://github.com/pyusb/pyusb/blob/master/docs/tutorial.rst#id2
+
+      reading barcode reader pyusb - Buscar con Google
+      https://www.google.com/search?q=reading+barcode+reader+pyusb&oq=reading+barcode+reader+pyusb&aqs=chrome..69i57j33i22i29i30.14747j0j15&sourceid=chrome&ie=UTF-8
+
+      python - PyUsb USB Barcode Scanner - Stack Overflow
+      https://stackoverflow.com/questions/14575403/pyusb-usb-barcode-scanner#comment20341988_14575403
+
+      python 3.x - Why isn't my barcode scanner listed as a /dev/ device? - Stack Overflow
+      https://stackoverflow.com/questions/57664755/why-isnt-my-barcode-scanner-listed-as-a-dev-device?rq=1
+
+      python - Pyusb Windows error:USBError: [Errno None] libusb0-dll:err [claim_interface] could not claim interface 1, win error: The requested resource is in use - Stack Overflow
+      https://stackoverflow.com/questions/54735331/pyusb-windows-errorusberror-errno-none-libusb0-dllerr-claim-interface-cou?rq=1
+
+      python - Reading data from a Tenma 72-7732 multimeter using PyUSB - Stack Overflow
+      https://stackoverflow.com/questions/17700370/reading-data-from-a-tenma-72-7732-multimeter-using-pyusb?rq=1
+
+      how to atach detach_kernel_driver - Buscar con Google
+      https://www.google.com/search?q=how+to+atach+detach_kernel_driver&sxsrf=APq-WBs9uNU5VTMxldSv1tt-T3qMoXctZg%3A1649774800791&ei=0JBVYpXiL-Cq1sQP0JqMiA8&ved=0ahUKEwiViteH4o73AhVglZUCHVANA_EQ4dUDCA4&uact=5&oq=how+to+atach+detach_kernel_driver&gs_lcp=Cgdnd3Mtd2l6EAM6BwgjELACECdKBAhBGAFKBAhGGABQqxFY0Ctg8C5oAnAAeACAAY0BiAHbBZIBAzMuNJgBAKABAcABAQ&sclient=gws-wiz
+
+      libusb: Device hotplug event notification
+      https://libusb.sourceforge.io/api-1.0/libusb_hotplug.html
+
+      libusb_hotplug_register_callback(3) manual page
+      https://nxmnpg.lemoda.net/3/libusb_hotplug_register_callback#5
+
+      c++ - libusb_hotplug_register_callback does not accept my callback function - Stack Overflow
+      https://stackoverflow.com/questions/35159163/libusb-hotplug-register-callback-does-not-accept-my-callback-function
+
+      libusb: Device hotplug event notification
+      https://www.cs.unm.edu/~hjelmn/libusb_hotplug_api/hotplug.html
+
+      679314 - Kernel driver is not detached before claiming device - chromium
+      https://bugs.chromium.org/p/chromium/issues/detail?id=679314
+
+      [dpdk-users] attach/detach on secondary process
+      https://mails.dpdk.org/archives/users/2017-December/002719.html
+
+      [Libusb-devel] re-attaching device to kernel driver after usb_detach_kernel_driver_np()
+      https://libusb-devel.narkive.com/gOkpkDrQ/re-attaching-device-to-kernel-driver-after-usb-detach-kernel-driver-np
+
+      python 3.5 - Pyusb on Windows 7 - NotImplemented Error :is_kernal_driver_active - Stack Overflow
+      https://stackoverflow.com/questions/41853951/pyusb-on-windows-7-notimplemented-error-is-kernal-driver-active
+
+      pyusb CONNECT and DISCONNECT - Buscar con Google
+      https://www.google.com.ar/search?q=pyusb+CONNECT+and+DISCONNECT&sxsrf=APq-WBsVQkyKtkjTnsOaebllMD5JM-dhmA%3A1649842358936&source=hp&ei=tphWYryJN66Y1sQPvveVoAM&iflsig=AHkkrS4AAAAAYlamxpyMez1XBOXTwzHstDkSpOfRwMsH&ved=0ahUKEwi8vPPd3ZD3AhUujJUCHb57BTQQ4dUDCAc&uact=5&oq=pyusb+CONNECT+and+DISCONNECT&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABMgQIIRAVOgQIIxAnOgsIABCABBCxAxCDAToICC4QgAQQsQM6BQgAEIAEOggIABCABBCxAzoFCC4QgAQ6CAguEIAEENQCOg0ILhCABBDHARDRAxAKOgQIABAeUABY1Sdg3CloAHAAeACAAXSIAZwFkgEDNy4xmAEAoAEBoAEC&sclient=gws-wiz
+
+      python - PyUSB: detect device unplug - Stack Overflow
+      https://stackoverflow.com/questions/40785371/pyusb-detect-device-unplug
+
+      pyusb/faq.rst at hotplug · roberthartung/pyusb · GitHub
+      https://github.com/roberthartung/pyusb/blob/hotplug/docs/faq.rst
+
+      libusb: Device handling and enumeration
+      https://libusb.sourceforge.io/api-1.0/group__libusb__dev.html#ga785ddea63a2b9bcb879a614ca4867bed
+
+      PyUSB / Re: [pyusb-users] Disconnecting USB
+      https://sourceforge.net/p/pyusb/mailman/message/26848561/
+
+   Window 6
+
+      python read barcode scanner usb port raspberry pi 3b+ - Buscar con Google
+      https://www.google.com/search?q=python+read+barcode+scanner+usb+port+raspberry+pi+3b%2B&sxsrf=APq-WBv8-tl8fzA0w9eUO_2HJPx7ZGN9-g%3A1649506722119&ei=onlRYp3zBtT51sQPouGx-Aw&ved=0ahUKEwidzOex-4b3AhXUvJUCHaJwDM8Q4dUDCA4&uact=5&oq=python+read+barcode+scanner+usb+port+raspberry+pi+3b%2B&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BAghEApKBAhBGABKBAhGGABQpAhYqTZgyThoAXABeACAAfYBiAGFEZIBBTQuOS4zmAEAoAEByAEIwAEB&sclient=gws-wiz
+
+      Interfacing USB Barcode Scanner with Raspberry Pi 4 to Read 2D Barcodes
+      https://circuitdigest.com/microcontroller-projects/interfacing-usb-barcode-scanner-with-raspberry-pi-4
+
+      headless (!) pi with USB barcode reader to constantly process input : raspberry_pi
+      https://www.reddit.com/r/raspberry_pi/comments/c0o2cg/headless_pi_with_usb_barcode_reader_to_constantly/
+
+      USB barcode scanner read in Python on Raspberry Pi Raspbian
+      https://gist.github.com/jayliew/d3da282cb8fef44ddcb0d34227c9891e
+
+      USB Barcode Scanner for the Raspberry Pi - projects4raspberry
+      https://projects4raspberry.com/usb-barcode-scanner-for-the-raspberry-pi/
+
+      How to use embedded barcode scanner with Raspberry Pi
+      https://www.rtscan.net/embedded-barcode-scanner-for-raspberry-pi-use-embedded-barcode-scanners-with-raspberry-pi/
+
+      (90) USB Barcode Scanner (Raspberry Pi) - YouTube
+      https://www.youtube.com/watch?v=ywakseuir-o
+
+      USB Barcode Scanner (Raspberry Pi) : 4 Steps - Instructables
+      https://www.instructables.com/USB-Barcode-Scanner-Raspberry-Pi/
+
+      QR Code Scanner using Raspberry Pi and OpenCV
+      https://circuitdigest.com/microcontroller-projects/qr-code-scanner-using-raspberry-pi-and-opencv
+
+      Interfacing USB Barcode Scanner with Raspberry Pi 4 to Read 2D Barcodes
+      https://circuitdigest.com/microcontroller-projects/interfacing-usb-barcode-scanner-with-raspberry-pi-4
+
+      How to connect a Raspberry Pi to a serial USB port with Python from the terminal | Opensource.com
+      https://opensource.com/article/20/5/usb-port-raspberry-pi-python
+
+      read usb site:https://projects.raspberrypi.org/ - Buscar con Google
+      https://www.google.com.ar/search?q=read+usb+site%3Ahttps%3A%2F%2Fprojects.raspberrypi.org%2F&sxsrf=APq-WBsm-FJWv8Mrq38NbtU4pB67fqw6XQ%3A1649621353792&source=hp&ei=aTlTYoOqLp3a1sQPsoG08AE&iflsig=AHkkrS4AAAAAYlNHeWvmk388S8vb52C64cvA9zAu5680&ved=0ahUKEwjDgri2por3AhUdrZUCHbIADR4Q4dUDCAc&uact=5&oq=read+usb+site%3Ahttps%3A%2F%2Fprojects.raspberrypi.org%2F&gs_lcp=Cgdnd3Mtd2l6EAM6BAgAEBM6CAgAEBYQHhATOggIABAIEAcQHlAAWL1XYM1YaAVwAHgAgAFbiAHOC5IBAjIymAEAoAECoAEB&sclient=gws-wiz
+
+      https://projects.raspberrypi.org/es-LA/projects/raspberry-pi-using/7
+      https://projects.raspberrypi.org/es-LA/projects/raspberry-pi-using/7
+
+      https://projects.raspberrypi.org/es-LA/projects/raspberry-pi-setting-up/5
+      https://projects.raspberrypi.org/es-LA/projects/raspberry-pi-setting-up/5
+
+      https://projects.raspberrypi.org/en/projects/raspberry-pi-using
+      https://projects.raspberrypi.org/en/projects/raspberry-pi-using
+
+      Raspberry Pi Accounts
+      https://my.raspberrypi.org/login
+
+      Raspberry Pi Forums - Search
+      https://forums.raspberrypi.com/search.php?st=0&sk=t&sd=d&sr=posts&keywords=read+from+usb&start=25
+
+      Raspberry Pi Forums - Search
+      https://forums.raspberrypi.com/search.php?keywords=install+pyusb&sid=07530c3a61a96017b983fae2d650d139
+
+      hoe to install pyusb - Buscar con Google
+      https://www.google.com/search?q=hoe+to+install+pyusb&oq=hoe+to+install+pyusb&aqs=chrome..69i57j0i19l2j0i19i22i30l2.4235j1j15&sourceid=chrome&ie=UTF-8
+
+      pyusb · PyPI
+      https://pypi.org/project/pyusb/
