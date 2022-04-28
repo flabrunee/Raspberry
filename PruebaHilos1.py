@@ -28,7 +28,7 @@ if __name__ == "__main__":
     thread2 = Thread(target=Yep.nope)
     thread.start()
     thread2.start()
-    # Sin el join la ejecucion sigue su curso (imprime 'Finished') pero sin terminar el programa.
+    # Sin el join la ejecucion sigue su curso (imprime 'Finished') pero sin terminar el programa (hasta que terminan los hilos).
     thread2.join()
-    #Con el join se bloquea hasta que termina ese hilo.
+    #Con el join se bloquea la ejecucion del programa hasta que termina ese hilo.
     print('Finished')

@@ -1,5 +1,6 @@
-#Ejemplo con una variable compartida entre threads
-#https://stackoverflow.com/questions/68535687/python-threads-using-the-same-variables?noredirect=1&lq=1
+# Ejemplo con una variable compartida entre threads
+# https://stackoverflow.com/questions/68535687/python-threads-using-the-same-variables?noredirect=1&lq=1
+
 # -*- coding: utf-8 -*-
 import threading
 import time
