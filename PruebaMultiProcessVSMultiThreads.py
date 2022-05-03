@@ -1,5 +1,7 @@
 #Prueba de Multithreading
-""" import time
+
+
+import time
 import threading
 
 
@@ -22,11 +24,11 @@ if __name__ == '__main__':
    t1.join()
    t2.join()
 
-   print(f'Tiempo transcurrido {time.time() - start }') """
+   print(f'Tiempo transcurrido {time.time() - start }')
 
 #----------------------------------------------------------------
 #Prueba de Multiprocesos
-import time
+""" import time
 import threading
 import multiprocessing
 
@@ -50,4 +52,27 @@ if __name__ == '__main__':
    t1.join()
    t2.join()
 
-   print(f'Tiempo transcurrido {time.time() - start }')
+   print(f'Tiempo transcurrido {time.time() - start }') """
+
+#----------------------------------------------------------------
+#Prueba de Multihilos con Pool de hilos https://python-para-impacientes.blogspot.com/2016/12/threading-programacion-con-hilos-i.html
+
+
+""" import threading
+    def contar():
+    contador = 0
+    while contador < 100:
+        contador += 1
+        print('Hilo:',
+              threading.current_thread().name(),
+              'con identificador:',
+              threading.current_thread().ident,
+              'Contador:', contador)
+
+
+NUM_HILOS = 3
+
+for num_hilo in range(NUM_HILOS):
+    hilo = threading.Thread(name='hilo%s' % num_hilo,
+                            target=contar)
+    hilo.start() """

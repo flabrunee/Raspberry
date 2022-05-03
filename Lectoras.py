@@ -1,4 +1,4 @@
-##  # !/usr/bin/python
+# !/usr/bin/python
 # -*- coding: utf-8 -*-
 import threading
 import usb.core
@@ -23,7 +23,7 @@ class Lectora(threading.Thread):
                 self.dataList.append(self.data)
             self.convertData(self.dataList)  # TODO
 
-    ##### Desconectar dispositivo del driver para poder hacer operaciones de E/S
+    # Desconectar dispositivo del driver para poder hacer operaciones de E/S
     @staticmethod
     def desconectarDriver(self):
         if self.device.is_kernel_driver_active(0):

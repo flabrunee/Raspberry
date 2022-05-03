@@ -5,7 +5,8 @@
 #import queue
 from multiprocessing import Pipe
 
- def one(connA):                                        #def one()
+
+def one(connA):  # def one()
   while True:                                           #while True:
     a = data1                                           #   a = data1
     connA.send([a])

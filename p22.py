@@ -8,9 +8,7 @@ global devElit
 
 ##### Capturar lectora Elitronic
 
-
-def new_func():
-    devElit = usb.core.find(idVendor=0x0483, idProduct=0x5710)
+dev = usb.core.find(idVendor=0x0483, idProduct=0x5710)
 
 
 new_func()
