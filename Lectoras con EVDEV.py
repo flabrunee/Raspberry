@@ -40,13 +40,6 @@ def parseopt():
     return parser.parse_args()
 
 
-def obt_numserie():
-        devenum = hid.enumerate(0x0483, 0x5710)
-
-    for dev in devenum:
-        if dev['vendor_id'] == 0x0483 and dev['product_id'] == 0x5710:
-            print((dev['serial_number']))
-
 def main():
     opts, devices = parseopt()
     if opts.help:
@@ -81,23 +74,6 @@ def main():
             for event in fd_to_device[fd].read():
                 print_event(event)
 
-        print('Termino')
-
-def print_event(e):
-    if e.type == ecodes.EV_SYN:
-        if e.code == ecodes.SYN_MT_REPORT:
-            msg = 'time {:<16} +++++++++ {} ++++++++'
-        else:
-            msg = 'time {:<16} --------- {} --------'
-        print(msg.format(e.timestamp(), ecodes.SYN[e.code]))
-    else:
-        if e.type in ecodes.bytype:
-            codename = ecodes.bytype[e.type][e.code]
-        else:
-            codename = '?'
-
-        evfmt = 'time {:<16} type {} ({}), code {:<4} ({}), value {}'
-        print(evfmt.format(e.timestamp(), e.type, ecodes.EV[e.type], e.code, codename, e.value))
 
 def select_devices(device_dir='/dev/input'):
     '''
@@ -105,32 +81,18 @@ def select_devices(device_dir='/dev/input'):
     '''
 
     def devicenum(device_path):
-        digits = re.findall(r'\d+$', device_path)   #devuelve todos los directorios que tienen un digito al final , x ej event0...
+        digits = re.findall(r'\d+$', device_path)
         return [int(i) for i in digits]
 
-    devices = sorted(list_devices(device_dir), key=devicenum)   #los guarda en devices
-
-    print('\ndevicenum',devicenum)
-    print('\n\ndevices: ',devices,'\n\n')
-
+    devices = sorted(list_devices(device_dir), key=devicenum)
     devices = [InputDevice(path) for path in devices]
-
-    print('\n\ndevices: ',devices,'\n\n')
-
     if not devices:
         msg = 'error: no input devices found (do you have rw permission on %s/*?)'
         print(msg % device_dir, file=sys.stderr)
         sys.exit(1)
 
     dev_format = '{0:<3} {1.path:<20} {1.name:<35} {1.phys:<35} {1.uniq:<4}'
-    dev_lines = [dev_format.format(num, dev) for num, dev in enumerate(devices)]   #Arma el listado de dispositivos dentro de dev_lines con lo q trae devices
-
-    print('\n\n')
-    for num, dev in enumerate(devices):
-        print('num:',num, ' dev:', dev,'\n')
-    print('\n\ndevices: \n', devices)
-    print('\n\ndev_format', dev_format)
-    print('\n\ndev_lines:\n', dev_lines)
+    dev_lines = [dev_format.format(num, dev) for num, dev in enumerate(devices)]
 
     print('ID  {:<20} {:<35} {:<35} {}'.format('Device', 'Name', 'Phys', 'Uniq'))
     print('-' * len(max(dev_lines, key=len)))
@@ -151,6 +113,8 @@ def select_devices(device_dir='/dev/input'):
         sys.exit(1)
 
     return choices
+
+
 def print_capabilities(device):
     capabilities = device.capabilities(verbose=True)
     input_props = device.input_props(verbose=True)
@@ -186,6 +150,24 @@ def print_capabilities(device):
                 print('    Code {:<4} {}'.format(s, code[1]))
         print('')
 
+
+def print_event(e):
+    if e.type == ecodes.EV_SYN:
+        if e.code == ecodes.SYN_MT_REPORT:
+            msg = 'time {:<16} +++++++++ {} ++++++++'
+        else:
+            msg = 'time {:<16} --------- {} --------'
+        print(msg.format(e.timestamp(), ecodes.SYN[e.code]))
+    else:
+        if e.type in ecodes.bytype:
+            codename = ecodes.bytype[e.type][e.code]
+        else:
+            codename = '?'
+
+        evfmt = 'time {:<16} type {} ({}), code {:<4} ({}), value {}'
+        print(evfmt.format(e.timestamp(), e.type, ecodes.EV[e.type], e.code, codename, e.value))
+
+
 def toggle_tty_echo(fh, enable=True):
     flags = termios.tcgetattr(fh.fileno())
     if enable:
@@ -194,18 +176,10 @@ def toggle_tty_echo(fh, enable=True):
         flags[3] &= ~termios.ECHO
     termios.tcsetattr(fh.fileno(), termios.TCSANOW, flags)
 
+
 if __name__ == '__main__':
-    import hid
     try:
         ret = main()
     except (KeyboardInterrupt, EOFError):
         ret = 0
     sys.exit(ret)
-"""    # First see what's connected that we know about
-    for d in hid.enumerate(0x0483, 0x5710):
-        print('\nPath:',d['path'],'\nVendor_id: ',d['vendor_id'],'\nProduct_id: ',str(d['product_id']),'\nNumero interface: ',d['interface_number'],
-              '\nNumero de serie: ',d['serial_number'],'\nRelease Number: ',d['release_number'],'\nFabricante: ',d['manufacturer_string'],'\nProducto: ',d['product_st>
-              '\nUsage Page¿?: ',d['usage_page'],'\nUsage¿?: ',d['usage'],'\n')
-    device = evdev.InputDevice('/dev/input/event5')
-    print(device)
-"""

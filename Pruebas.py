@@ -17,6 +17,9 @@ class myClass():
 
 
 if __name__ == "__main__":
+
+    #'/dev/input/event5    STMicroelectronics Wireless Receiver V523 usb-3f980000.usb-1.3/input0         IÿsRgVTC'
+
     Yep = myClass()
     thread = Thread(target=Yep.help)
     thread2 = Thread(target=Yep.nope)
