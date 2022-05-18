@@ -1,0 +1,194 @@
+Con una lectora 1234567890 y despues con la otra 123456789012
+
+time 1652909179.943232 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
+time 1652909179.943232 type 1 (EV_KEY), code 2    (KEY_1), value 1
+time 1652909179.943232 --------- SYN_REPORT --------
+Termino
+time 1652909179.946255 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
+time 1652909179.946255 type 1 (EV_KEY), code 2    (KEY_1), value 0
+time 1652909179.946255 --------- SYN_REPORT --------
+Termino
+time 1652909179.949219 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458783
+time 1652909179.949219 type 1 (EV_KEY), code 3    (KEY_2), value 1
+time 1652909179.949219 --------- SYN_REPORT --------
+Termino
+time 1652909179.952203 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458783
+time 1652909179.952203 type 1 (EV_KEY), code 3    (KEY_2), value 0
+time 1652909179.952203 --------- SYN_REPORT --------
+Termino
+time 1652909179.955198 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458784
+time 1652909179.955198 type 1 (EV_KEY), code 4    (KEY_3), value 1
+time 1652909179.955198 --------- SYN_REPORT --------
+Termino
+time 1652909179.9582  type 4 (EV_MSC), code 4    (MSC_SCAN), value 458784
+time 1652909179.9582  type 1 (EV_KEY), code 4    (KEY_3), value 0
+time 1652909179.9582  --------- SYN_REPORT --------
+Termino
+time 1652909179.961199 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458785
+time 1652909179.961199 type 1 (EV_KEY), code 5    (KEY_4), value 1
+time 1652909179.961199 --------- SYN_REPORT --------
+Termino
+time 1652909179.964188 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458785
+time 1652909179.964188 type 1 (EV_KEY), code 5    (KEY_4), value 0
+time 1652909179.964188 --------- SYN_REPORT --------
+Termino
+time 1652909179.967194 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458786
+time 1652909179.967194 type 1 (EV_KEY), code 6    (KEY_5), value 1
+time 1652909179.967194 --------- SYN_REPORT --------
+Termino
+time 1652909179.970256 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458786
+time 1652909179.970256 type 1 (EV_KEY), code 6    (KEY_5), value 0
+time 1652909179.970256 --------- SYN_REPORT --------
+Termino
+time 1652909179.973277 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458787
+time 1652909179.973277 type 1 (EV_KEY), code 7    (KEY_6), value 1
+time 1652909179.973277 --------- SYN_REPORT --------
+Termino
+time 1652909179.976261 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458787
+time 1652909179.976261 type 1 (EV_KEY), code 7    (KEY_6), value 0
+time 1652909179.976261 --------- SYN_REPORT --------
+Termino
+time 1652909179.97924 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458788
+time 1652909179.97924 type 1 (EV_KEY), code 8    (KEY_7), value 1
+time 1652909179.97924 --------- SYN_REPORT --------
+Termino
+time 1652909179.982373 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458788
+time 1652909179.982373 type 1 (EV_KEY), code 8    (KEY_7), value 0
+time 1652909179.982373 --------- SYN_REPORT --------
+Termino
+time 1652909179.985218 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458789
+time 1652909179.985218 type 1 (EV_KEY), code 9    (KEY_8), value 1
+time 1652909179.985218 --------- SYN_REPORT --------
+Termino
+time 1652909179.988222 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458789
+time 1652909179.988222 type 1 (EV_KEY), code 9    (KEY_8), value 0
+time 1652909179.988222 --------- SYN_REPORT --------
+Termino
+time 1652909179.991228 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458790
+time 1652909179.991228 type 1 (EV_KEY), code 10   (KEY_9), value 1
+time 1652909179.991228 --------- SYN_REPORT --------
+Termino
+time 1652909179.994214 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458790
+time 1652909179.994214 type 1 (EV_KEY), code 10   (KEY_9), value 0
+time 1652909179.994214 --------- SYN_REPORT --------
+Termino
+time 1652909179.997237 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458791
+time 1652909179.997237 type 1 (EV_KEY), code 11   (KEY_0), value 1
+time 1652909179.997237 --------- SYN_REPORT --------
+Termino
+time 1652909180.000361 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458791
+time 1652909180.000361 type 1 (EV_KEY), code 11   (KEY_0), value 0
+time 1652909180.000361 --------- SYN_REPORT --------
+Termino
+time 1652909180.003244 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458792
+time 1652909180.003244 type 1 (EV_KEY), code 28   (KEY_ENTER), value 1
+time 1652909180.003244 --------- SYN_REPORT --------
+Termino
+time 1652909180.006259 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458792
+time 1652909180.006259 type 1 (EV_KEY), code 28   (KEY_ENTER), value 0
+time 1652909180.006259 --------- SYN_REPORT --------
+Termino
+time 1652909216.782014 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
+time 1652909216.782014 type 1 (EV_KEY), code 2    (KEY_1), value 1
+time 1652909216.782014 --------- SYN_REPORT --------
+Termino
+time 1652909216.78506 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
+time 1652909216.78506 type 1 (EV_KEY), code 2    (KEY_1), value 0
+time 1652909216.78506 --------- SYN_REPORT --------
+Termino
+time 1652909216.788027 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458783
+time 1652909216.788027 type 1 (EV_KEY), code 3    (KEY_2), value 1
+time 1652909216.788027 --------- SYN_REPORT --------
+Termino
+time 1652909216.791043 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458783
+time 1652909216.791043 type 1 (EV_KEY), code 3    (KEY_2), value 0
+time 1652909216.791043 --------- SYN_REPORT --------
+Termino
+time 1652909216.794006 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458784
+time 1652909216.794006 type 1 (EV_KEY), code 4    (KEY_3), value 1
+time 1652909216.794006 --------- SYN_REPORT --------
+Termino
+time 1652909216.797027 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458784
+time 1652909216.797027 type 1 (EV_KEY), code 4    (KEY_3), value 0
+time 1652909216.797027 --------- SYN_REPORT --------
+Termino
+time 1652909216.800001 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458785
+time 1652909216.800001 type 1 (EV_KEY), code 5    (KEY_4), value 1
+time 1652909216.800001 --------- SYN_REPORT --------
+Termino
+time 1652909216.803014 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458785
+time 1652909216.803014 type 1 (EV_KEY), code 5    (KEY_4), value 0
+time 1652909216.803014 --------- SYN_REPORT --------
+Termino
+time 1652909216.806015 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458786
+time 1652909216.806015 type 1 (EV_KEY), code 6    (KEY_5), value 1
+time 1652909216.806015 --------- SYN_REPORT --------
+Termino
+time 1652909216.809015 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458786
+time 1652909216.809015 type 1 (EV_KEY), code 6    (KEY_5), value 0
+time 1652909216.809015 --------- SYN_REPORT --------
+Termino
+time 1652909216.812006 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458787
+time 1652909216.812006 type 1 (EV_KEY), code 7    (KEY_6), value 1
+time 1652909216.812006 --------- SYN_REPORT --------
+Termino
+time 1652909216.815016 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458787
+time 1652909216.815016 type 1 (EV_KEY), code 7    (KEY_6), value 0
+time 1652909216.815016 --------- SYN_REPORT --------
+Termino
+time 1652909216.818022 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458788
+time 1652909216.818022 type 1 (EV_KEY), code 8    (KEY_7), value 1
+time 1652909216.818022 --------- SYN_REPORT --------
+Termino
+time 1652909216.821155 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458788
+time 1652909216.821155 type 1 (EV_KEY), code 8    (KEY_7), value 0
+time 1652909216.821155 --------- SYN_REPORT --------
+Termino
+time 1652909216.824014 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458789
+time 1652909216.824014 type 1 (EV_KEY), code 9    (KEY_8), value 1
+time 1652909216.824014 --------- SYN_REPORT --------
+Termino
+time 1652909216.827023 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458789
+time 1652909216.827023 type 1 (EV_KEY), code 9    (KEY_8), value 0
+time 1652909216.827023 --------- SYN_REPORT --------
+Termino
+time 1652909216.830016 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458790
+time 1652909216.830016 type 1 (EV_KEY), code 10   (KEY_9), value 1
+time 1652909216.830016 --------- SYN_REPORT --------
+Termino
+time 1652909216.833031 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458790
+time 1652909216.833031 type 1 (EV_KEY), code 10   (KEY_9), value 0
+time 1652909216.833031 --------- SYN_REPORT --------
+Termino
+time 1652909216.836016 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458791
+time 1652909216.836016 type 1 (EV_KEY), code 11   (KEY_0), value 1
+time 1652909216.836016 --------- SYN_REPORT --------
+Termino
+time 1652909216.839154 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458791
+time 1652909216.839154 type 1 (EV_KEY), code 11   (KEY_0), value 0
+time 1652909216.839154 --------- SYN_REPORT --------
+Termino
+time 1652909216.842012 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
+time 1652909216.842012 type 1 (EV_KEY), code 2    (KEY_1), value 1
+time 1652909216.842012 --------- SYN_REPORT --------
+Termino
+time 1652909216.84504 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
+time 1652909216.84504 type 1 (EV_KEY), code 2    (KEY_1), value 0
+time 1652909216.84504 --------- SYN_REPORT --------
+Termino
+time 1652909216.84803 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458783
+time 1652909216.84803 type 1 (EV_KEY), code 3    (KEY_2), value 1
+time 1652909216.84803 --------- SYN_REPORT --------
+Termino
+time 1652909216.851032 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458783
+time 1652909216.851032 type 1 (EV_KEY), code 3    (KEY_2), value 0
+time 1652909216.851032 --------- SYN_REPORT --------
+Termino
+time 1652909216.854017 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458792
+time 1652909216.854017 type 1 (EV_KEY), code 28   (KEY_ENTER), value 1
+time 1652909216.854017 --------- SYN_REPORT --------
+Termino
+time 1652909216.857032 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458792
+time 1652909216.857032 type 1 (EV_KEY), code 28   (KEY_ENTER), value 0
+time 1652909216.857032 --------- SYN_REPORT --------
+Termino
