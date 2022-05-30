@@ -21,7 +21,7 @@ import re
 import sys
 import select
 import atexit
-import termios
+#import termios
 import optparse
 
 try:
@@ -80,7 +80,8 @@ def select_devices(device_dir='/dev/input'):
     Select one or more devices from a list of accessible input devices.
     '''
 
-    def devicenum(device_path):
+    def devicenum(device_path):  # dev/input/event
+        print(device_path)
         digits = re.findall(r'\d+$', device_path)
         return [int(i) for i in digits]
 

@@ -31,7 +31,7 @@ async def print_events(device):
  # Lista de dispositivos usb
 devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
 
- print('Se encontraron los siguientes dispositivos:')
+print('Se encontraron los siguientes dispositivos:')
 for device in devices:
   print(device.path, device.name, device.phys)
 
@@ -127,12 +127,12 @@ async def print_events(device):
                 buf += keymap.get(kv.keycode)
  
 devices = [evdev.InputDevice(path) for path in evdev.list_devices()]
- print ('Se encontraron los siguientes dispositivos:')
+print ('Se encontraron los siguientes dispositivos:')
 for device in devices:
-print(device.path, device.name, device.phys)
+    print(device.path, device.name, device.phys)
  
 for device in devices:
-asyncio.ensure_future(print_events(device))
+    asyncio.ensure_future(print_events(device))
  
 loop = asyncio.get_event_loop()
 loop.run_forever()

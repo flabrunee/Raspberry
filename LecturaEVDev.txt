@@ -1,5 +1,6 @@
 Con una lectora 1234567890 y despues con la otra 123456789012
-
+                             ecodes.EV[e.type]  ecodes.bytype[e.type][e.code]
+    e.timestamp        e.type           e.code                e.value
 time 1652909179.943232 type 4 (EV_MSC), code 4    (MSC_SCAN), value 458782
 time 1652909179.943232 type 1 (EV_KEY), code 2    (KEY_1), value 1
 time 1652909179.943232 --------- SYN_REPORT --------

@@ -1,0 +1,229 @@
+32432423432
+equivocado13:10:12 27/05/22
+
+1234567890
+correcto 13:10:31 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 13:11:00 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 13:11:28 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 13:11:30 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 13:12:47 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 13:13:02 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 13:13:26 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 13:13:59 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 13:14:02 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 13:14:23 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 13:14:25 27/05/22  
+piezas ok 2
+
+
+equivocado13:14:32 27/05/22
+
+0000000000
+equivocado13:14:36 27/05/22
+
+0000000000
+equivocado13:14:41 27/05/22
+
+1234567890
+correcto 13:17:29 27/05/22  
+piezas ok 1
+
+
+equivocado13:18:47 27/05/22
+
+1234567890
+correcto 13:19:01 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 15:44:48 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 15:44:50 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 15:44:54 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 15:45:04 27/05/22  
+piezas ok 4
+
+1234567890
+correcto 15:45:06 27/05/22  
+piezas ok 5
+
+
+equivocado16:30:29 27/05/22
+
+1234567890
+correcto 16:30:55 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 16:31:54 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 16:32:44 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 16:32:47 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 16:33:09 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 16:33:44 27/05/22  
+piezas ok 4
+
+1234567890
+correcto 16:33:57 27/05/22  
+piezas ok 5
+
+1234567890
+correcto 16:34:06 27/05/22  
+piezas ok 6
+
+
+equivocado18:17:41 27/05/22
+
+1234567890
+correcto 18:18:00 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 18:18:05 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 18:18:15 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:25:37 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:26:00 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:30:52 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 21:30:57 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 21:33:20 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:33:22 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 21:33:24 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 21:38:17 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:38:20 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 21:38:22 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 21:48:25 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:48:30 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 21:48:33 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 21:48:37 27/05/22  
+piezas ok 4
+
+1234567890
+correcto 21:50:22 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:50:27 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 21:50:30 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 21:51:52 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:54:23 27/05/22  
+piezas ok 1
+
+1234567890
+correcto 21:54:26 27/05/22  
+piezas ok 2
+
+1234567890
+correcto 21:54:29 27/05/22  
+piezas ok 3
+
+1234567890
+correcto 22:00:07 27/05/22  
+piezas ok 4
+
+1234567890
+correcto 22:00:15 27/05/22  
+piezas ok 1
+
