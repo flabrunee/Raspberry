@@ -1,0 +1,75 @@
+import sys
+import evdev
+import asyncio
+from constantes import *
+from evdev import ecodes, list_devices, AbsInfo, InputDevice
+from arch_config import *
+
+#def Set_lectoras(device):
+Lect1 = evdev.InputDevice('/dev/input/event5')   #TODO Al inicio buscar las lectoras por el serial y engancharlas con el path
+Lect2 = evdev.InputDevice('/dev/input/event7')
+
+'''puesto1 = {"id":estacion.lect_id,
+           "path":estacion.lect_path,
+           "nombre":estacion.lect_nombre,
+           "phys":estacion.lect_phys,
+           "serie":estacion.lect_nserie,
+           "ip_impresora":estacion.ip_imp}'''
+data = [{"id":"5",
+            "path":"/dev/input/event5",
+            "nombre":"Lectora Elect",
+            "phys":"phys",
+            "serie":"serie",
+            "ip_impresora":"192.168.1.5"},
+           {"id":"7",
+            "path":"/dev/input/event7",
+            "nombre":"Lectora Elect2",
+            "phys":"phys2",
+            "serie":"serie2",
+            "ip_impresora":"192.168.1.7"
+       }]
+####################################################################################################
+#Lectura
+cnt1, cnt2 = 0, 0
+async def leer_eventos(device):
+    buf = ''
+    global cn1,cnt2
+    async for event in device.async_read_loop():
+        if event.type == 1 and event.value == 1:   #Si el evento es de una tecla y se apretó la tecla.  evdev.ecodes.EV_KEY=1, value 0=key up 1=key down 2=key hold
+            kv = evdev.events.KeyEvent(event)
+            if (kv.scancode == 28):   #Fin de la lectura   evdev.ecodes.KEY_ENTER=28
+                if buf != '':
+                    if (device.path[16] == Lect1.path[16]):   #TODO crear estructura para las lectoras
+                        cnt1+=1
+                        print('Lectora 5 ', cnt1, ' Serie: ', Lect1.uniq)
+                    else:
+                        cnt2+=1
+                        print('Lectora 7 ', cnt2, ' Serie: ', Lect2.uniq)
+                    print(buf)
+                buf = ''
+            else:   #Mientras no termine de leer, agregar a la lectura
+                buf += KEYMAP[kv.keycode]
+
+def main():
+    #Lect1.grab()   #Deshabilitar echo lectoras
+    #Lect2.grab()
+    d = LeerConfigPuesto()
+    print(d)
+'''    for device in Lect1, Lect2:
+        buf = asyncio.ensure_future(leer_eventos(device))
+        #if (device.path[16] == Lect1.path[16]):   #TODO crear estructura para las lectoras
+    loop = asyncio.get_event_loop()
+    loop.run_forever()
+    print('salio?')'''
+    #Lect1.ungrab()   #Habilitar echo lectoras
+    #Lect2.ungrab()
+####################################################################################################
+
+if __name__ == '__main__':
+    import hid
+
+    try:
+        ret = main()
+    except (KeyboardInterrupt, EOFError):
+        ret = 0
+    sys.exit(ret)

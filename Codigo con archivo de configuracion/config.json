@@ -1,0 +1,20 @@
+[
+    {
+        "event_id": "5",
+        "puesto_id": "1",
+        "path": "/dev/input/event5",
+        "nombre": "Lectora Elect",
+        "phys": "phys",
+        "serie": "serie",
+        "ip_impresora": "192.168.1.5"
+    },
+    {
+        "event_id": "7",
+        "puesto_id": "2",
+        "path": "/dev/input/event7",
+        "nombre": "Lectora Elect2",
+        "phys": "phys2",
+        "serie": "serie2",
+        "ip_impresora": "192.168.1.7"
+    }
+]
