@@ -125,13 +125,14 @@ def select_devices(device_dir='/dev/input'):
     dev_format = '{0:<3} {1.path:<20} {1.name:<35} {1.phys:<35} {1.uniq:<4}'
     dev_lines = [dev_format.format(num, dev) for num, dev in enumerate(devices)]   #Arma el listado de dispositivos dentro de dev_lines con lo q trae devices
 
-    print('\n\n')
+    print('\n\n3- ')
     for num, dev in enumerate(devices):
         print('num:',num, ' dev:', dev,'\n')
-    print('\n\ndevices: \n', devices)
-    print('\n\ndev_format', dev_format)
-    print('\n\ndev_lines:\n', dev_lines)
+    print('\n\n4- devices: \n', devices)
+    print('\n\n5- dev_format', dev_format)
+    print('\n\n6- dev_lines:\n', dev_lines)
 
+    print('7- ')
     print('ID  {:<20} {:<35} {:<35} {}'.format('Device', 'Name', 'Phys', 'Uniq'))
     print('-' * len(max(dev_lines, key=len)))
     print('\n'.join(dev_lines))

@@ -57,3 +57,6 @@ KEYMAP = {
     'KEY_ENTER': u'\n',
 }
 __all__ = [ 'SET_ESTACION1', 'SET_ESTACION2', 'KEYMAP' ]
+
+codigo = KEYMAP[0]
+if (KEYMAP.get codigo)
