@@ -1,27 +1,32 @@
-# Mar del Chat - Grupo 1
+# Mar del Chat - Grupo 1 #
 	Trabajo Final del Bootcamp Backend .NET / C#  - DEV PLACE Tech Academy.
-	Este proyecto se trata de un servicio de chat implementado con tecnologia .Net contra SQL Server mediante APIs en el BackEnd 
-	consumidas por la interfaz de usuario ...en el FrontEnd. El mismo se centra en el diseño y desarrollo de un servidor que 
-	proporciona soporte mediante ¿endpoints?(para no repetir APIs) a una aplicación llamada ??, la cual permite la interacción 
+	Este proyecto se trata de un servicio de chat en tiempo real implementado con tecnologia .Net contra SQL Server mediante APIs
+	en el BackEnd consumidas por la interfaz de usuario ...en el FrontEnd. El mismo se centra en el diseño y desarrollo de un servidor 
+	que proporciona soporte mediante ¿endpoints?(para no repetir APIs) a una aplicación llamada ??, la cual permite la interacción 
 	entre distintos usuarios registrados que se pueden unir mediante salas de chat individuales o grupales.
 	El usuario se debe registrar en el FrontEnd para comenzar a chatear con otro usuario mediante una sala individual o puede 
 	acceder a una sala grupal donde hay mas usuarios. Las salas no son persistentes, son destruidas al finalizar la sesión todos
 	los usuarios que la integran.
+- Persistencia de datos en cuanto a login y registro de usuarios
+- Soporte multi clientes (testeada con 100 usuarios conectados)
+- Deteccion de escritura en tiempo real
+- Deteccion del ingreso y salida de cualquier usuario al chat
+- Multi plataforma
 	
-## Tecnologías y Herramientas
+## Tecnologías y Herramientas ##
 	Para el desarrollo de la parte Backend de este proyecto se han utilizado principalmente los lenguajes y tecnologías C#, SQL,
 	.NET y herramientas SignalR?¿. Esta implementado usando la metodologia de Arquitectura de Capas
 	Para el lado del FrontEnd, se ha utilizado la metodología de desarrollo ... 
 ![](https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png)
 Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication
 
-## Integrantes Grupo 1
+## Integrantes Grupo 1 ##
 - Lucas Varela 
 - Damian Bosatta 
 - Nicolas Francolino 
 - Fabian Labrunee 
 
-## Estructura del sistema Backend
+## Estructura del sistema Backend ##
 (sin archivos)
 ```
 ├───API_CoreBusiness  
@@ -133,7 +138,14 @@ Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-
     └───Properties
             launchSettings.json
 ```
-## Glosario
+## Forma de Uso o Configuracion Local ##
+Por ejemplo...
+Una vez clonado este repositorio se debe acceder mediante la terminal al mismo y ejecutar el comando composer update, esto instalara las dependecias de php que tiene el proyecto.
+
+Seguidamente vamos se procede a compilar el webpack, para esto dentro de la terminal en el mismo proyecto ejecutamos el siguiente comando npm install
+
+Debemos configurar las bases de datos y nuestro pushear ID dentro del archivo .env , y para finalizar corremos nuestro chat local utilizando el comando php artisan serve
+## Glosario ##
 - Back-end: La parte de una aplicación que almacena y manipula datos.
 - Front-end: Es una interfaz a través de la cual los usuarios comunes pueden acceder a un programa. 
 - Arquitectura de Capas: es la organización donde los componentes funcionales están separados jerárquicamente por capas. Cada capa solo está conectada con su superior y su inferior mediante interfaces.
