@@ -138,13 +138,17 @@ Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-
     └───Properties
             launchSettings.json
 ```
-## Forma de Uso o Configuracion Local ##
+## Requisitos / Pre-requisitos ##
+-Net Framework 4.5 ??
+-Algo mas?
+
+## Forma de Uso o Configuracion Local o Despliegue ##
 Por ejemplo...
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo.
 Una vez clonado este repositorio se debe acceder mediante la terminal al mismo y ejecutar el comando composer update, esto instalara las dependecias de php que tiene el proyecto.
-
 Seguidamente vamos se procede a compilar el webpack, para esto dentro de la terminal en el mismo proyecto ejecutamos el siguiente comando npm install
-
 Debemos configurar las bases de datos y nuestro pushear ID dentro del archivo .env , y para finalizar corremos nuestro chat local utilizando el comando php artisan serve
+
 ## Glosario ##
 - Back-end: La parte de una aplicación que almacena y manipula datos.
 - Front-end: Es una interfaz a través de la cual los usuarios comunes pueden acceder a un programa. 
