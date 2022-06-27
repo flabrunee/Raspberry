@@ -33,12 +33,16 @@ Con SignalR podemos conectar a un servicio tanto clientes como digamos, pudiendo
 Las conexiones al servicio se realizan con autenticación multifactor, gracias a la clave de acceso, que nos devuelve un token de sesión válido para que las aplicaciones clientes consuman el servicio.
 Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualmente siempre abierta, creando la sensación de estar trabajando en una conexion continua. Del lado del servidor se puede detectar cuando se ha conectado o desconectado un nuevo cliente, se puede recibir mensajes de los mismos y enviar mensajes a los clientes conectados, en definitiva, todo lo necesario para poder crear aplicaciones asincronas multiusuario.
 ![](https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png)
+##### Fuente: https://www.compartimoss.com/revistas/numero-36/eventos-real-time-con-azure-signalr-en-asp-net-core/ #####
 
 ## Implementacion ## 
-El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación.
+El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación.  
+MVC?  
+Algun patron?  
+
 	
 ![](https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png)
-Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication
+##### Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication #####
 
 ## Estructura del sistema Backend ##
 (sin archivos)
