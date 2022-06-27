@@ -1,5 +1,12 @@
-# Mar del Chat - Grupo 1 #
-	Trabajo Final del Bootcamp Backend .NET / C#  - DEV PLACE Tech Academy.
+# Mar del Chat #
+
+## Integrantes Grupo 1 ##
+- Lucas Varela 
+- Damian Bosatta 
+- Nicolas Francolino 
+- Fabian Labrunee 
+## Introducción ##
+Trabajo Final del Bootcamp Backend .NET / C#  - DEV PLACE Tech Academy.
 	Este proyecto se trata de un servicio de chat en tiempo real implementado con tecnologia .Net contra SQL Server mediante APIs
 	en el BackEnd consumidas por la interfaz de usuario ...en el FrontEnd. El mismo se centra en el diseño y desarrollo de un servidor 
 	que proporciona soporte mediante ¿endpoints?(para no repetir APIs) a una aplicación llamada ??, la cual permite la interacción 
@@ -8,23 +15,30 @@
 	acceder a una sala grupal donde hay mas usuarios. Las salas no son persistentes, son destruidas al finalizar la sesión todos
 	los usuarios que la integran.
 - Persistencia de datos en cuanto a login y registro de usuarios
-- Soporte multi clientes (testeada con 100 usuarios conectados)
+- Soporte multi clientes
 - Deteccion de escritura en tiempo real
 - Deteccion del ingreso y salida de cualquier usuario al chat
 - Multi plataforma
 	
 ## Tecnologías y Herramientas ##
-	Para el desarrollo de la parte Backend de este proyecto se han utilizado principalmente los lenguajes y tecnologías C#, SQL,
-	.NET y herramientas SignalR?¿. Esta implementado usando la metodologia de Arquitectura de Capas
-	Para el lado del FrontEnd, se ha utilizado la metodología de desarrollo ... 
+Se utilizó Visual Studio Community 2022 como herramienta de programacion
+### Para el desarrollo de la parte Backend se utilizaron principalmente los siguientes lenguajes y tecnologías: ###
+- C#  
+- SQL Server  
+- .NET Framework 6.0  
+
+### Para el FrontEnd, se utilizó la herramienta de desarrollo SignalR ###  
+SignalR es una librería o framework de desarrollo que permite conectar en nuestras aplicaciones, la capa de backend con el lado cliente, en ambas direcciones, y sobre todo en tiempo real sin necesidad de recargar pantalla.
+Con SignalR podemos conectar a un servicio tanto clientes como digamos, pudiendo escalar el servicio bajo demanda.
+Las conexiones al servicio se realizan con autenticación multifactor, gracias a la clave de acceso, que nos devuelve un token de sesión válido para que las aplicaciones clientes consuman el servicio.
+Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualmente siempre abierta, creando la sensación de estar trabajando en una conexion continua. Del lado del servidor se puede detectar cuando se ha conectado o desconectado un nuevo cliente, se puede recibir mensajes de los mismos y enviar mensajes a los clientes conectados, en definitiva, todo lo necesario para poder crear aplicaciones asincronas multiusuario.
+![](https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png)
+
+## Implementacion ## 
+El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación.
+	
 ![](https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png)
 Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication
-
-## Integrantes Grupo 1 ##
-- Lucas Varela 
-- Damian Bosatta 
-- Nicolas Francolino 
-- Fabian Labrunee 
 
 ## Estructura del sistema Backend ##
 (sin archivos)
