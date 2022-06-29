@@ -27,22 +27,57 @@ Se utilizó Visual Studio Community 2022 como herramienta de programacion
 - SQL Server  
 - .NET Framework 6.0  
 
-### Para el FrontEnd, se utilizó la herramienta de desarrollo SignalR ###  
+### En el FrontEnd, se utilizó la herramienta de desarrollo SignalR junto con Blazor ###  
+#### SignalR ####
 SignalR es una librería o framework de desarrollo que permite conectar en nuestras aplicaciones, la capa de backend con el lado cliente, en ambas direcciones, y sobre todo en tiempo real sin necesidad de recargar pantalla.
 Con SignalR podemos conectar a un servicio tanto clientes como digamos, pudiendo escalar el servicio bajo demanda.
 Las conexiones al servicio se realizan con autenticación multifactor, gracias a la clave de acceso, que nos devuelve un token de sesión válido para que las aplicaciones clientes consuman el servicio.
-Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualmente siempre abierta, creando la sensación de estar trabajando en una conexion continua. Del lado del servidor se puede detectar cuando se ha conectado o desconectado un nuevo cliente, se puede recibir mensajes de los mismos y enviar mensajes a los clientes conectados, en definitiva, todo lo necesario para poder crear aplicaciones asincronas multiusuario.
-![](https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png)
-##### Fuente: https://www.compartimoss.com/revistas/numero-36/eventos-real-time-con-azure-signalr-en-asp-net-core/ #####
+Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualmente siempre abierta, creando la sensación de estar trabajando en una conexion continua. Del lado del servidor se puede detectar cuando se ha conectado o desconectado un nuevo cliente, se puede recibir mensajes de los mismos y enviar mensajes a los clientes conectados, en definitiva, todo lo necesario para poder crear aplicaciones asincronas multiusuario.  
+<p align="center">
+  <img src="https://docs.microsoft.com/es-ES/azure/architecture/solution-ideas/media/cross-platform-chat.png" alt="cross-platform-chat" width="400" />
+</p>  
+#### Flujo de datos ####
+- La aplicación de chat web se conecta a SignalR Service y recibe un token
+- El usuario inicia sesión en la aplicación con la autenticación multifactor; si la supera, se devuelven el punto de conexión de SignalR y el token de portador.
+- El usuario se conecta a SignalR Service con el punto de conexión y el token.
+
+<p align="center"> https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/cross-platform-chat </p>  
+
+<p align="center">
+  <img src="https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png" alt="signalr-service" width="500" />
+</p>  
+
+<p align="center"> https://www.compartimoss.com/revistas/numero-36/eventos-real-time-con-azure-signalr-en-asp-net-core/ </p>  
+
+![](https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/cross-platform-chat#dataflow)
+
+<p align="center">
+  <img src="" width="500" />
+</p>
+
+
+La aplicación de chat web se conecta a SignalR Service y recibe un token
+El usuario inicia sesión en la aplicación con la autenticación multifactor; si la supera, se devuelven el punto de conexión de SignalR y el token de portador.
+El usuario se conecta a SignalR Service con el punto de conexión y el token.
+
+#### Blazor ####
+El modelo de hospedaje de Blazor Server ofrece las ventajas siguientes:
+
+- El tamaño de la descarga es mucho menor que una aplicación del lado cliente y la aplicación se carga mucho más rápido.
+- La aplicación aprovecha al máximo las funciones del servidor, incluido el uso de las API compatibles con .NET.
+- En el servidor, .NET se usa para ejecutar la aplicación, por lo que las herramientas de .NET existentes, como la depuración, funcionan según lo previsto.
+- Se admiten clientes ligeros. Por ejemplo, las aplicaciones del lado servidor funcionan con exploradores que no admiten WebAssembly y en dispositivos con restricción de recursos.
+- La base del código de la aplicación .NET/C#, incluido el código de componente de la aplicación, no se sirve a los clientes.
+![](https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/media/hosting-models/blazor-server.png)
+##### https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/hosting-models #####
 
 ## Implementacion ## 
 El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación.  
 MVC?  
 Algun patron?  
 
-	
 ![](https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png)
-##### Fuente: https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication #####
+##### https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication #####
 
 ## Estructura del sistema Backend ##
 (sin archivos)
@@ -70,97 +105,10 @@ Algun patron?
     ├───Migrations  
     └───Properties  
 ```
-(con archivos)
-```
-│   
-├───API_CoreBusiness
-│   │   API_CoreBusiness.csproj
-│   │   ApplicationDbContext.cs 
-│   │   
-│   ├───Authentication
-│   │   ├───Request
-│   │   │       UserRequest.cs
-│   │   │       
-│   │   └───Response
-│   │           UserResponse.cs
-│   └───Entities
-│           Chat.cs
-│           ChatType.cs
-│           ChatUsuario.cs
-│           Contactos.cs
-│           Mensaje.cs
-│           Role.cs
-│           Usuario.cs 
-│    
-├───API_DataCore 
-│   │           
-│   ├───PluginInterfaces
-│   │       IChatRepository.cs
-│   │       IChatUsuarioRepository.cs
-│   │       IContactoRepository.cs
-│   │       IMensajeRepository.cs
-│   │       IUsuarioRepository.cs
-│   │       
-│   └───Repository
-│           ChatRepository.cs
-│           ChatUsuarioRepository.cs
-│           ContactoRepository.cs
-│           MensajeRepository.cs
-│           UsuarioRepository.cs
-│           
-├───API_GenericCore
-│   │   API_GenericCore.csproj
-│   │   
-│   ├───bin
-│   │   └───Debug
-│   │       └───net6.0
-│   └───GenericRepository
-│       │   GenericRepository.cs
-│       │   
-│       └───Interfaces
-│               IGenericRepository.cs
-│                
-├───API_LoggerCore
-│   │   API_MiddlewareCore.csproj
-│   │   
-│   ├───CustomLogger
-│   │       CustomLogger.cs
-│   │       
-│   ├───Middleware
-│   │       CustomMiddleware.cs
-│   └───Properties
-│           launchSettings.json
-│           
-├───API_UsesCases
-│   │           
-│   ├───Services
-│   │       IUserService.cs
-│   │       UserService.cs
-│   │       
-│   └───UnitOfWork
-│           IUnitOfWork.cs
-│           UnitOfWork.cs
-│           
-└───MarDelChat
-    │   .gitattributes
-    │   appsettings.Development.json
-    │   appsettings.json
-    │   MarDelChat.csproj
-    │   Program.cs
-    │
-    ├───Controllers
-    │       ChatController.cs
-    │       ContactoController.cs
-    │       LoginController.cs 
-    │       
-    └───Properties
-            launchSettings.json
-```
-## Requisitos / Pre-requisitos ##
--Net Framework 4.5 ??
--Algo mas?
+## Requisitos ##
+-Net Framework 4.5
 
-## Forma de Uso o Configuracion Local o Despliegue ##
+## Configuracion Local ##
 Por ejemplo...
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo.
 Una vez clonado este repositorio se debe acceder mediante la terminal al mismo y ejecutar el comando composer update, esto instalara las dependecias de php que tiene el proyecto.
