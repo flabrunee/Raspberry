@@ -36,40 +36,34 @@ Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualme
 <p align="center">
   <img src="https://docs.microsoft.com/es-ES/azure/architecture/solution-ideas/media/cross-platform-chat.png" alt="cross-platform-chat" width="400" />
 </p>  
-#### Flujo de datos ####
-- La aplicación de chat web se conecta a SignalR Service y recibe un token
-- El usuario inicia sesión en la aplicación con la autenticación multifactor; si la supera, se devuelven el punto de conexión de SignalR y el token de portador.
-- El usuario se conecta a SignalR Service con el punto de conexión y el token.
-
 <p align="center"> https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/cross-platform-chat </p>  
 
-<p align="center">
-  <img src="https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png" alt="signalr-service" width="500" />
-</p>  
+##### Flujo de datos #####  
+- La aplicación de chat web se conecta a SignalR Service y recibe un token.  
+- El usuario inicia sesión en la aplicación con la autenticación multifactor; si la supera, se devuelven el punto de conexión de SignalR y el token de portador.  
+- El usuario se conecta a SignalR Service con el punto de conexión y el token.  
 
+<p align="center">
+  <img src="https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png" alt="signalr-service" width="650" />
+</p>  
 <p align="center"> https://www.compartimoss.com/revistas/numero-36/eventos-real-time-con-azure-signalr-en-asp-net-core/ </p>  
 
 ![](https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/cross-platform-chat#dataflow)
 
-<p align="center">
-  <img src="" width="500" />
-</p>
-
-
-La aplicación de chat web se conecta a SignalR Service y recibe un token
-El usuario inicia sesión en la aplicación con la autenticación multifactor; si la supera, se devuelven el punto de conexión de SignalR y el token de portador.
-El usuario se conecta a SignalR Service con el punto de conexión y el token.
-
 #### Blazor ####
+Es un proyecto desarrollado por Microsoft creado para permitir crear [SPAs](https://docs.microsoft.com/en-us/aspnet/single-page-application/overview) únicamente usando como lenguajes de programación C# y Razor Pages, haciendo nula la necesidad de programar en Javascript o frameworks derivados.
+Su principal fuerte es la interacción en tiempo real entre cliente y servidor a través de SignalR.
 El modelo de hospedaje de Blazor Server ofrece las ventajas siguientes:
 
 - El tamaño de la descarga es mucho menor que una aplicación del lado cliente y la aplicación se carga mucho más rápido.
 - La aplicación aprovecha al máximo las funciones del servidor, incluido el uso de las API compatibles con .NET.
 - En el servidor, .NET se usa para ejecutar la aplicación, por lo que las herramientas de .NET existentes, como la depuración, funcionan según lo previsto.
 - Se admiten clientes ligeros. Por ejemplo, las aplicaciones del lado servidor funcionan con exploradores que no admiten WebAssembly y en dispositivos con restricción de recursos.
-- La base del código de la aplicación .NET/C#, incluido el código de componente de la aplicación, no se sirve a los clientes.
-![](https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/media/hosting-models/blazor-server.png)
-##### https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/hosting-models #####
+- La base del código de la aplicación .NET/C#, incluido el código de componente de la aplicación, no se sirve a los clientes.  
+<p align="center">
+  <img src="https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/media/hosting-models/blazor-server.png" alt="blazor-server" width="450" />
+</p>  
+<p align="center"> https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/hosting-models </p>  
 
 ## Implementacion ## 
 El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación.  
@@ -80,7 +74,6 @@ Algun patron?
 ##### https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication #####
 
 ## Estructura del sistema Backend ##
-(sin archivos)
 ```
 ├───API_CoreBusiness  
 │   ├───Authentication  
