@@ -27,6 +27,13 @@ Se utilizó Visual Studio Community 2022 como herramienta de programacion
 - SQL Server  
 - .NET Framework 6.0  
 
+
+***ESTE LO TENGO QUE MODIFICAR***  
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91495463/176471635-f7b2ce83-58d5-4853-a7b4-43ebbca30228.png" alt="cross-platform-chat" width="600" />
+</p>
+<p align="center"> https://docs.microsoft.com/es-es/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern#what-is-the-api-gateway-pattern </p>  
+
 ### En el FrontEnd, se utilizó la herramienta de desarrollo SignalR junto con Blazor ###  
 #### SignalR ####
 SignalR es una librería o framework de desarrollo que permite conectar en nuestras aplicaciones, la capa de backend con el lado cliente, en ambas direcciones, y sobre todo en tiempo real sin necesidad de recargar pantalla.
@@ -35,7 +42,7 @@ Las conexiones al servicio se realizan con autenticación multifactor, gracias a
 Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualmente siempre abierta, creando la sensación de estar trabajando en una conexion continua. Del lado del servidor se puede detectar cuando se ha conectado o desconectado un nuevo cliente, se puede recibir mensajes de los mismos y enviar mensajes a los clientes conectados, en definitiva, todo lo necesario para poder crear aplicaciones asincronas multiusuario.  
 <p align="center">
   <img src="https://docs.microsoft.com/es-ES/azure/architecture/solution-ideas/media/cross-platform-chat.png" alt="cross-platform-chat" width="400" />
-</p>  
+</p>
 <p align="center"> https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/cross-platform-chat </p>  
 
 ##### Flujo de datos #####  
@@ -47,8 +54,6 @@ Esta herramienta permite desarrollar una aplicacion sobre una conexion virtualme
   <img src="https://www.compartimoss.com/static/cf87d91c43f165c7e0cd338d055e275c/2bef9/image3.png" alt="signalr-service" width="650" />
 </p>  
 <p align="center"> https://www.compartimoss.com/revistas/numero-36/eventos-real-time-con-azure-signalr-en-asp-net-core/ </p>  
-
-![](https://docs.microsoft.com/es-es/azure/architecture/solution-ideas/articles/cross-platform-chat#dataflow)
 
 #### Blazor ####
 Es un proyecto desarrollado por Microsoft creado para permitir crear [SPAs](https://docs.microsoft.com/en-us/aspnet/single-page-application/overview) únicamente usando como lenguajes de programación C# y Razor Pages, haciendo nula la necesidad de programar en Javascript o frameworks derivados.
@@ -70,8 +75,10 @@ El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas 
 MVC?  
 Algun patron?  
 
-![](https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png)
-##### https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication #####
+<p align="center">
+  <img src="https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png" alt="direct-client-to-service-communication" width="500" />
+</p>  
+<p align="center"> https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/front-end-communication </p>  
 
 ## Estructura del sistema Backend ##
 ```
