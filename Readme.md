@@ -120,4 +120,4 @@ Debemos configurar las bases de datos y nuestro pushear ID dentro del archivo .e
 - Front-end: Es una interfaz a través de la cual los usuarios comunes pueden acceder a un programa. 
 - Arquitectura de Capas: es la organización donde los componentes funcionales están separados jerárquicamente por capas. Cada capa solo está conectada con su superior y su inferior mediante interfaces.
 - Framework: es una plataforma para el desarrollo de aplicaciones de software. Proporciona una base sobre la cual los desarrolladores de software pueden construir programas para una plataforma específica. 
-- API: se refiere a la Interfaz de Programación de Aplicaciones. Es la plataforma que utiliza un programa para acceder a diferentes servicios en el sistema informático. 
+- API: se refiere a la Interfaz de Programación de Aplicaciones. Es la plataforma que utiliza un programa para acceder a diferentes servicios en el sistema informático.
