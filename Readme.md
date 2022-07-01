@@ -27,8 +27,6 @@ Se utilizó Visual Studio Community 2022 como herramienta de programacion
 - SQL Server  
 - .NET Framework 6.0  
 
-
-***ESTE LO TENGO QUE MODIFICAR***  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91495463/176471635-f7b2ce83-58d5-4853-a7b4-43ebbca30228.png" alt="cross-platform-chat" width="600" />
 </p>
@@ -71,10 +69,7 @@ El modelo de hospedaje de Blazor Server ofrece las ventajas siguientes:
 <p align="center"> https://docs.microsoft.com/es-es/dotnet/architecture/blazor-for-web-forms-developers/hosting-models </p>  
 
 ## Implementacion ## 
-El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación.  
-MVC?  
-Algun patron?  
-
+El proyecto está desarrollado usando la metodologia de Arquitectura de N-Capas la cual se presta a reutilización de código por parte de distintas capas de presentación. 
 <p align="center">
   <img src="https://docs.microsoft.com/es-es/dotnet/architecture/cloud-native/media/direct-client-to-service-communication.png" alt="direct-client-to-service-communication" width="500" />
 </p>  
@@ -108,12 +103,11 @@ Algun patron?
 ## Requisitos ##
 -Net Framework 4.5
 
-## Configuracion Local ##
-Por ejemplo...
-Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo.
-Una vez clonado este repositorio se debe acceder mediante la terminal al mismo y ejecutar el comando composer update, esto instalara las dependecias de php que tiene el proyecto.
-Seguidamente vamos se procede a compilar el webpack, para esto dentro de la terminal en el mismo proyecto ejecutamos el siguiente comando npm install
-Debemos configurar las bases de datos y nuestro pushear ID dentro del archivo .env , y para finalizar corremos nuestro chat local utilizando el comando php artisan serve
+## Diagrama de clases ##
+![ClassDiagram1](https://user-images.githubusercontent.com/91495463/176903373-1d8bcbc8-2e5c-4af8-8e91-471e0ec832d5.jpg)
+
+##Diagrama Entidad-Relacion ##
+![image](https://user-images.githubusercontent.com/91495463/176903469-e15ac123-08a6-448e-8cd0-52d5589dd0ce.png)
 
 ## Glosario ##
 - Back-end: La parte de una aplicación que almacena y manipula datos.
